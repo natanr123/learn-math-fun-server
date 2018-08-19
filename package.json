@@ -1,0 +1,32 @@
+{
+  "name": "leanmathserver",
+  "description": "A package using naive versioning",
+  "author": "",
+  "scripts": {
+    "test": "mocha -b --recursive --require babel-polyfill --require ./src/babelhooks ./src/node_modules/test",
+    "start": "nodemon --watch ./src/node_modules/app ./server"
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-es2015-node6": "*",
+    "babel-preset-es2016": "*",
+    "babel-preset-es2017": "*",
+    "babel-preset-flow": "*",
+    "babel-preset-stage-0": "*",
+    "babel-preset-stage-2": "*",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "flow-bin": "*",
+    "mongoose": "^5.2.7",
+    "nodemon": "^1.18.3",
+    "okrand": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
